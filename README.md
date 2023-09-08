@@ -177,7 +177,7 @@ const Names = () => {
         { title: 'Apple', id: 3 },
     ];
 
-    return <ul>{names.map(name) => <li>name</li>}</ul>;
+    return <ul>{names.map(name) => <li>{name.title}</li>}</ul>;
 };
 
 export default Names;
