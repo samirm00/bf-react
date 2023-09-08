@@ -11,6 +11,12 @@ const Button = ({ clickHandler }) => {
     );
 };
 
+// default props
+Button.defaultProps = {
+    clickHandler: () => {}
+};
+
+// prop types
 Button.propTypes = {
     clickHandler: PropTypes.func.isRequired
 };
