@@ -1,5 +1,7 @@
 # What is React ?
 
+![React](./assets/react.png)
+
 -   React is a library to create user interfaces
 -   React is used to build single-page applications(SPA).
 -   React allows us to create reusable components.
